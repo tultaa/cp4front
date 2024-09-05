@@ -1,0 +1,46 @@
+/* Estilo da imagem do produto */
+.img-fluid {
+    max-height: 600px; /* Ajusta a altura máxima da imagem do produto */
+    object-fit: cover; /* Faz com que a imagem cubra o espaço sem distorção */
+}
+
+/* Estilo do título do produto */
+.product-title {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/* Estilo do preço do produto */
+.product-price {
+    font-size: 1.5rem;
+    color: #000000; /* Cor azul do Bootstrap */
+    margin-bottom: 1rem;
+}
+
+/* Estilo da descrição do produto */
+.product-description {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Estilo do botão do carrinho */
+.btn-lg {
+    padding: 0.75rem 1.25rem;
+    font-size: 1.25rem;
+}
+
+.btn{
+    background-color: rgba(32, 124, 4, 0.5);
+    color: rgb(0, 0, 0);
+    border: none;
+}
+
+.btn:hover {
+    background-color: rgba(32, 124, 4, 0.5);
+    color: rgb(0, 0, 0);
+}
+
+.img-fluid{
+    width: 75%;
+    height: auto;
+}

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="/Home/home.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="/Home/home.html">
+                <img src="/img/icon.png" alt="Logo" style="height: 40px;">
+            </a>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/Home/home.html">Home <span class="sr-only">(atual)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Categorias/categorias.html">Categorias</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Produtos/Produtos.html">Produtos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Contato/contato.html">Contato</a>
+                    </li>
+                </ul>
+                <a class="btn btn-outline-primary" href="#">
+                    <img src="/img/8191393.png" alt="Carrinho" style="height: 24px;">
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Banner Carousel -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="/img/banner1.png" class="d-block w-100" alt="Promoção 1">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Promoção Especial 1</h5>
+                    <p>Descontos incríveis em nossos produtos mais vendidos!</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="/img/banner2.jpg" class="d-block w-100" alt="Promoção 2">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Promoção Especial 2</h5>
+                    <p>Aproveite nossas ofertas por tempo limitado!</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="/img/banner3.jpg" class="d-block w-100" alt="Promoção 3">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Promoção Especial 3</h5>
+                    <p>Descontos exclusivos em novos lançamentos!</p>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <!-- Sections of Products -->
+    <main class="container my-5">
+        <h2 class="text-center mb-4">Categorias de Produtos</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="/img/roupas.jpg" class="card-img-top" alt="Roupas">
+                    <div class="card-body">
+                        <h5 class="card-title">Roupas</h5>
+                        <p class="card-text">Explore nossa vasta seleção de roupas para todas as ocasiões.</p>
+                        <a href="#" class="btn btn-primary">Ver Produtos</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="/img/beleza.jpg" class="card-img-top" alt="Beleza">
+                    <div class="card-body">
+                        <h5 class="card-title">Beleza</h5>
+                        <p class="card-text">Descubra nossos produtos de beleza e cuidados pessoais.</p>
+                        <a href="#" class="btn btn-primary">Ver Produtos</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="/img/casa.jpg" class="card-img-top" alt="Casa">
+                    <div class="card-body">
+                        <h5 class="card-title">Casa</h5>
+                        <p class="card-text">Encontre tudo o que você precisa para sua casa.</p>
+                        <a href="#" class="btn btn-primary">Ver Produtos</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    
+    <footer class=" text-center py-3">
+        <p>&copy; 2024 Minha Loja. Todos os direitos reservados.</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-JZR6Spejh4U02d8jO3TjKme5L2+6+G1S1z5P1xj6tL6Fk5SFlb6s4b5iFiK6S5" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz4fnFO9sW1pQAnjYm6xNElX4gPR5ZhKf2/6B30gCpV2k5f5zyDflZn4+" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-vP5CB7VjX4d4M7W4br1cJXffF2n7p9dWf3twcFISScAqV+UicY9JwXwrE+T/S5U5" crossorigin="anonymous"></script>
+    
+    <!-- Certifique-se de carregar o jQuery correto e scripts do Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="/Contato/contato.css"> <!-- Link para o arquivo CSS -->
+</head>
+<body>
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="/Home/home.html">
+            <img src="/img/icon.png" alt="Logo" style="height: 40px;">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="/Home/home.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/Categorias/categorias.html">Categorias</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/Produtos/Produtos.html">Produtos</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="/Contato/contato.html">Contato</a>
+                </li>
+            </ul>
+            <a class="btn btn-outline-primary" href="#">
+                <img src="/img/8191393.png" alt="Carrinho" style="height: 24px;">
+            </a>
+        </div>
+    </nav>
+
+    <!-- Contact Form -->
+    <div class="container contact-form">
+        <div class="row">
+            <div class="col-md-8 offset-md-2">
+                <h2>Entre em Contato Conosco</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="name">Nome</label>
+                        <input type="text" class="form-control" id="name" placeholder="Seu Nome" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Seu Email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Assunto</label>
+                        <input type="text" class="form-control" id="subject" placeholder="Assunto" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mensagem</label>
+                        <textarea class="form-control" id="message" rows="4" placeholder="Sua Mensagem" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-light text-center py-3">
+        <p>&copy; 2024 Minha Loja. Todos os direitos reservados.</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy0FzUyWxaU2vWJ74oAq9ujc4K4ZrS5t65Bo1h1Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-JZR6Spejh4U02d8j0Q9D5/FsFJQDx3D6YI1G5A8Sg2EtkS3AA61z5Z0uO8J1jD7" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-rbsA5GVy01an0RzZyfr9nxWx9rr6U3V+2E3I8sQ3ZYmx5R7U5OO5Xw5p+9IkKDk" crossorigin="anonymous"></script>
+</body>
+</html>
